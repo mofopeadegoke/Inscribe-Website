@@ -1,5 +1,6 @@
 import Logo from "../images/logoNoBgNPad.png";
 import "../styles/nav.css"
+import Button from "./button";
 export default function Navbar() {
     return (
         <>
@@ -11,7 +12,7 @@ export default function Navbar() {
                 </ul>
                 <ul className="right-side">
                     <li>Help</li>
-                    <li><button className="sc-btn inv-sc-btn">Get Started</button></li>
+                    <li><Button className="sc-btn inv-sc-btn" value="Get Started"/></li>
                 </ul>
             </nav>
         </>
