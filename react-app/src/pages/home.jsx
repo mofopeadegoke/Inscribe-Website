@@ -6,6 +6,7 @@ import pencil from "../images/pencil.svg";
 import download from "../images/download.svg";
 import infinity from "../images/infinity.svg";
 import check from "../images/check.svg"
+import stepUp from "../images/stepUp.svg";
 
 export default function Home() {
     return (
@@ -79,6 +80,25 @@ export default function Home() {
                             </ul>
                         </article>
                     </article>
+                </article>
+            </article>
+            <article className="trustedSection">
+                <article className="container">
+                    <p>Trusted by 1500+ users across Chrome and Edge with 4000+ installs.</p>
+                </article>
+            </article>
+            <article className="howItWorks">
+                <img src={stepUp} alt="An illustraions of a person chechong boxes" />
+                <article className="content">
+                    <h2>How it works</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corrupti voluptatum unde! Debitis, voluptatum sed quod sequi recusandae rerum quia explicabo dolore nulla obcaecati reprehenderit non velit, suscipit doloremque incidunt.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, beatae dicta repellendus suscipit non quo sunt delectus iste quam voluptatem!</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, beatae dicta repellendus suscipit non quo sunt delectus iste quam voluptatem!</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, beatae dicta repellendus suscipit non quo sunt delectus iste quam voluptatem!</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, beatae dicta repellendus suscipit non quo sunt delectus iste quam voluptatem!</li>
+                    </ul>
+                    <p>For more information <a href="#">Check out our Instagram page</a></p>
                 </article>
             </article>
         </>
