@@ -6,7 +6,8 @@ import pencil from "../images/pencil.svg";
 import download from "../images/download.svg";
 import infinity from "../images/infinity.svg";
 import check from "../images/check.svg"
-import stepUp from "../images/stepUp.svg";
+import checkingBoxes from "../images/checkingBoxes.svg";
+import completed from "../images/prjcom.svg"
 
 export default function Home() {
     return (
@@ -33,7 +34,7 @@ export default function Home() {
                     </article>
                     <article className="feature">
                         <img src={pencil} alt="A pencil icon" />
-                        <p className="feahead">Drawing fetures</p>
+                        <p className="feahead">Drawing features</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor doloribus nobis repellendus quasi rem, vero excepturi illum ea voluptate quam.</p>
                     </article>
                     <article className="feature">
@@ -88,7 +89,7 @@ export default function Home() {
                 </article>
             </article>
             <article className="howItWorks">
-                <img src={stepUp} alt="An illustraions of a person chechong boxes" />
+                <img src={completed} alt="An illustraions of a person chechong boxes" />
                 <article className="content">
                     <h2>How it works</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corrupti voluptatum unde! Debitis, voluptatum sed quod sequi recusandae rerum quia explicabo dolore nulla obcaecati reprehenderit non velit, suscipit doloremque incidunt.</p>
