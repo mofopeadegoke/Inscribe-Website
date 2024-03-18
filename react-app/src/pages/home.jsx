@@ -8,6 +8,10 @@ import infinity from "../images/infinity.svg";
 import check from "../images/check.svg"
 import checkingBoxes from "../images/checkingBoxes.svg";
 import completed from "../images/prjcom.svg"
+import Logo from "../images/logoNoBgNPad.png";
+import facebook from "../images/facebookGray.svg";
+import instagram from "../images/instagramGray.svg";
+import xTwitter from "../images/xGray.svg";
 
 export default function Home() {
     return (
@@ -102,6 +106,52 @@ export default function Home() {
                     <p>For more information <a href="#">Check out our Instagram page</a></p>
                 </article>
             </article>
+            <article className="helpSection">
+                <article className="socialLinks">
+                    <img src={Logo} alt="Inscribe Logo" />
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, tempora!</h2>
+                    <article className="row">
+                        <a href="#">
+                            <img src={facebook} alt="The gray version of the facebook icon" />
+                        </a>
+                        <a href="#">
+                            <img src={xTwitter} alt="The gray version of the X(Twitter) icon" />
+                        </a>
+                        <a href="#">
+                            <img src={instagram} alt="The gray version of the instagram icon" />
+                        </a>
+                    </article>
+                </article>
+                <article className="webLinks">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                How it works
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Plans
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Tutorials
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </article>
+                <article className="contactUs">
+                    <h3>Contact Us</h3>
+                    <p>For further inquiries reach out to us on our socials or email us at inscribeext@gmail </p>
+                </article>
+            </article>
+            <footer>
+                <p>&copy; 2024 Incribe inc.</p>
+                <a href="#">Privacy Policy</a>
+            </footer>
         </>
     )
 }

@@ -160,3 +160,51 @@ article.howItWorks ul {
     flex-direction: column;
     row-gap: 1rem;
 }
+article.helpSection img{
+    width: 1.8rem;
+}
+article.helpSection {
+    display: grid;
+    grid-template-columns: 30% 15% 25%;
+    grid-template-rows: auto;
+    margin-top: 10rem;
+    padding-inline: 3rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+article.helpSection article.socialLinks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: fit-content;
+}
+article.helpSection article.socialLinks h2 {
+    font-size: 1.2rem;
+}
+article.helpSection article.socialLinks .row {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    column-gap: 10px;
+}
+article.helpSection article.webLinks ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+article.helpSection article.webLinks ul a {
+    color: black;
+    text-decoration: none;
+}
+footer {
+    background: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+footer a {
+    color: #fff;
+}
