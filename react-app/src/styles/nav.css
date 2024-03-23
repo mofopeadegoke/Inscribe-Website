@@ -27,3 +27,40 @@ nav.navbar ul li{
 nav.navbar ul.left-side {
     column-gap: 1.5rem;
 }
+.links {
+    transform: scale(0);
+    transform-origin: top;
+    transition: 0.5s all ease;
+    display: none;
+}
+.show {
+    transform: scale(1);
+    display: inline;
+}
+.links ul {
+    border: 2px solid;
+    list-style: none;
+}
+.links ul li {
+    padding: 5px 10px;
+    transition: 0.3s all ease-in;
+    cursor: pointer;
+}
+.links ul li:hover {
+    background-color: #ccc;
+}
+.links ul li a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+.links ul li:not(:last-child) {
+    border-bottom: 1px solid;
+}
+.onMobile {
+    display: none;
+}
+.bar {
+    cursor: pointer;
+}
