@@ -23,8 +23,8 @@
         margin-bottom: 5rem;
     }
     article.trustedSection article.container {
-        padding: 4rem 2rem;
-        font-size: 2.2rem;
+        padding: 3rem 1.5rem;
+        font-size: 2rem;
     }
     article.plans .plan-details {
         grid-template-columns: auto;

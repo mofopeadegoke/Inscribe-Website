@@ -25,19 +25,21 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <article className="introSection">
-                <article className="content">
-                    <h1 data-aos="fade-down">The form solution for any developer</h1>
-                    <p data-aos="fade-up">Use your own frontend code. Submit to our API. We'll handle the rest.</p>
-                    <article data-aos="fade-left">
-                        <Button className="sc-btn inv-sc-btn" value="Get Started"/>
-                    </article>
-                    <article className="psSection" data-aos="fade-up">
-                        <b>Formspree forms can perfectly match your website</b>
-                        <p>by inheriting your website's CSS</p>
+            <section>
+                <article className="introSection">
+                    <article className="content">
+                        <h1 data-aos="fade-down">The form solution for any developer</h1>
+                        <p data-aos="fade-up">Use your own frontend code. Submit to our API. We'll handle the rest.</p>
+                        <article data-aos="fade-left">
+                            <Button className="sc-btn nrm-sc-btn" value="Get Started"/>
+                        </article>
+                        <article className="psSection" data-aos="fade-up">
+                            <b>Formspree forms can perfectly match your website</b>
+                            <p>by inheriting your website's CSS</p>
+                        </article>
                     </article>
                 </article>
-            </article>
+            </section>
             <article className="features">
                 <h2>Features</h2>
                 <article className="featuresContainer">

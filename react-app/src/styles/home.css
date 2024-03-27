@@ -4,10 +4,15 @@ article.introSection {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url(../images//fadedAngledLogo.png);
-    background-size: contain;
+    
+}
+
+section {
+    background: url(../images/bg.svg);
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    color: #fff;
 }
 
 article.introSection .content {
