@@ -4,7 +4,7 @@ import "../styles/responsive.css";
 import Button from "./button";
 import bars from "../images/bars.svg";
 import { useEffect } from "react";
-export default function Navbar() {
+export default function Navbar(props) {
     useEffect(() => {
         const desktopEls = document.querySelectorAll(".onDesktop");
         const mobileEls = document.querySelectorAll(".onMobile");
@@ -46,21 +46,40 @@ export default function Navbar() {
             <nav className="navbar">
                 <ul className="left-side">
                     <li className="imgLi"><img src={Logo} alt="The color-inverted form of the Inscribe Logo" /> <span>Inscribe</span></li>
-                    <li className="onDesktop">Home</li>
-                    <li className="onDesktop">Plans</li>
+                    <li className="onDesktop">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li className="onDesktop">
+                        <a href="#plans">Plans</a>
+                    </li>
+                    <li className="onDesktop">
+                        <a href="#features">Features</a>
+                    </li>
                 </ul>
                 <ul className="right-side">
-                    <li className="onDesktop">Help</li>
-                    <li className="onDesktop"><Button className="sc-btn inv-sc-btn" value="Get Started"/></li>
+                    <li className="onDesktop">
+                        <a href="#help">Help</a>
+                    </li>
+                    <li className="onDesktop">
+                        <Button className="sc-btn inv-sc-btn" value="Get Started" url={props.url}/>
+                    </li>
                     <img src={bars} alt="Three black horizontal bars" className="onMobile bar"/>
                 </ul>
             </nav>
             <div className="links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Plans</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Get Started</a></li>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#plans">Plans</a>
+                    </li>
+                    <li>
+                        <a href="#help">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">Get Started</a>
+                    </li>
                 </ul>
             </div>
         </>
