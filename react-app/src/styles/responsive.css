@@ -5,7 +5,8 @@
         row-gap: 2rem;
         justify-content: space-between;
         margin-top: 5rem;
-        margin-block: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 0;
         /* background: url(../images//fadedAngledLogo.png);
         background-size: contain;
         background-position: center center;
@@ -34,7 +35,7 @@
     article.plans {
         margin-bottom: 10rem;
     }
-    article.introSection h1 {
+    h1.main-txt {
         font-size: 2.5rem;
     }
     article.introSection h1+p {
@@ -45,5 +46,30 @@
     article.features .featuresContainer {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
+    }
+    article.introSection .content {
+        padding-block: 2rem;
+        padding-inline: 1rem;
+    }
+    h1.main-txt+p {
+        font-size: 1rem;
+    }
+    article.howItWorks {
+        padding-inline: 3rem;
+    }
+}
+@media all and (max-width: 650px) {
+    h1.main-txt {
+        font-size: 2rem;
+    }
+    footer.ft {
+        padding: 1.5rem 1rem;
+        font-size: 0.85rem;
+    }
+    section.mb {
+        background: url(../images//mobileGreen.svg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 }

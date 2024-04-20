@@ -13,7 +13,6 @@ button {
 }
 body {
   overflow-x: hidden;
-  max-width: 1500px;
   margin-inline: auto;
 }
 a {
