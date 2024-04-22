@@ -8,10 +8,11 @@ article.introSection {
 }
 
 section {
-    background: url(../images/webGreen.svg);
+    background: url(../images/webYelGreenNorm.svg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    text-shadow: 2px 2px 10px #f0edcc;
 }
 section > * {
     max-width: 1500px;
