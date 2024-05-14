@@ -10,6 +10,7 @@ import infinity from "../images/infinity.svg";
 import check from "../images/check.svg";
 import completed from "../images/prjcom.svg";
 import Logo from "../images/logoNoBgNPad.png";
+import logoWhite from "../images/InscribeLogoNoBg.png";
 import facebook from "../images/facebookGray.svg";
 import instagram from "../images/instagramGray.svg";
 import xTwitter from "../images/xGray.svg";
@@ -44,7 +45,7 @@ export default function Home() {
       <section className="mb">
         <article className="introSection" id="home">
           <article className="content">
-            <h1 data-aos="fade-down" className="main-txt">
+            <h1 data-aos="fade-down" className="main-txt text_invert">
               The browser extension for anyone
             </h1>
             <p data-aos="fade-up">
@@ -62,7 +63,7 @@ export default function Home() {
             <article className="psSection" data-aos="fade-up">
               <b>
                 Effortlessly jot down ideas, scribble and draw with accessible
-                sticker notes{" "}
+                sticker notes
               </b>
               <p>that pop up on your screen.</p>
             </article>
@@ -76,11 +77,11 @@ export default function Home() {
               data-aos={window.innerWidth <= 1000 ? "fade-right" : "fade-up"}
             >
               <img src={stickyNote} alt="A sticky note icon" />
-              <p className="feahead">Sticky Notes</p>
+              <span className="feahead">Sticky Notes</span>
               <p>
                 Effortless capture thoughts on this versatile digital sticky
                 note- pops up on your laptop, customizable colours and
-                conveniently rests on either side.{" "}
+                conveniently rests on either side.
               </p>
             </article>
             <article
@@ -215,10 +216,8 @@ export default function Home() {
           <article className="content" data-aos="fade-left">
             <h2>How it works</h2>
             <ul>
-              <li>
-                Open your browser (Microsoft Edge or Chrome) and search for the
-                Inscribe extension{" "}
-              </li>
+              <li>Open your browser (Microsoft Edge or Chrome).</li>
+              <li>Search for the Inscribe extension </li>
               <li>
                 Download the extension and add to your extension shortcut.
               </li>
