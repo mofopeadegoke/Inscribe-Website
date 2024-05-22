@@ -236,12 +236,12 @@ footer div {
     column-gap: 2rem;
 }
 .text_invert {
-    background-image: linear-gradient(45deg, #000000, #47360a);
+    background-image: linear-gradient(45deg, #000000, #f7cb5d);
     background-clip: text;
     background-size: 400%;
     color: transparent;
     text-shadow: none;
-    animation: txt_animation 30s infinite forwards alternate;
+    animation: txt_animation 40s infinite forwards alternate;
 }
 @keyframes txt_animation {
     0% {
