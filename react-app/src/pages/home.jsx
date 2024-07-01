@@ -301,7 +301,7 @@ export default function Home() {
         </article>
       </section>
       <footer className="ft">
-        <p>&copy; 2024 Incribe inc.</p>
+        <p>&copy; 2024 Inscribe inc.</p>
         <div className="left">
           <a href="https://shorturl.at/kpwx7" target="_blank">
             Privacy Policy
