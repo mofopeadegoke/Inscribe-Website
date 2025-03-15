@@ -57,19 +57,25 @@
     article.howItWorks {
         padding-inline: 3rem;
     }
+    .mb {
+        clip-path: polygon(0 0,
+                    100% 0,
+                    100% 95%,
+                    0 100%);
+    }
+    section.mbTwo {
+        clip-path: polygon(0 5%,
+                    100% 0,
+                    100% 100%,
+                    0 100%);
+    }
 }
 @media all and (max-width: 650px) {
-    h1.main-txt {
-        font-size: 2rem;
+    div.main-txt {
+        font-size: 2.5rem;
     }
     footer.ft {
         padding: 1.5rem 1rem;
         font-size: 0.85rem;
-    }
-    section.mb {
-        background: url(../images//mobYelGreenNorm.svg);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
     }
 }

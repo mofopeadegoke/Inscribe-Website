@@ -46,7 +46,7 @@ export default function Home() {
       <section className="mb">
         <article className="introSection" id="home">
           <article className="content">
-            <div style={{ fontSize: "3rem", fontWeight: "bold" }}>
+            <div className="main-txt">
               <Typewriter
                 options={{
                   autoStart: true,
@@ -272,7 +272,7 @@ export default function Home() {
         </article>
         <article className="helpSection" data-aos="fade-up" id="help">
           <article className="socialLinks">
-            <img src={Logo} alt="Inscribe Logo" />
+            <img src={logoWhite} alt="Inscribe Logo" />
             <h2>
               Unleash your creativity with Inscribe. Take your productivity to
               the next level.

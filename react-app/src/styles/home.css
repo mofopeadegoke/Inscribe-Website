@@ -18,7 +18,7 @@ section {
 section.mb {
     padding-bottom: 5rem;
 }
-section.mbTwo {
+.mbTwo {
     clip-path: polygon(0 15%,
                 100% 0,
                 100% 100%,
@@ -41,6 +41,7 @@ article.introSection .content > * {
 }
 .main-txt {
     font-size: 3rem;
+    font-weight: bold;
 }
 .main-txt+p {
     font-size: 1.5rem;
@@ -225,7 +226,7 @@ article.helpSection article.webLinks ul {
     row-gap: 8px;
 }
 article.helpSection article.webLinks ul a {
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 footer {
