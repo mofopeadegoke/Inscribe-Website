@@ -17,6 +17,7 @@ import xTwitter from "../images/xGray.svg";
 // Importing Animate on Scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   const [browserLink, setBrowserLink] = useState("unknown");
@@ -45,9 +46,29 @@ export default function Home() {
       <section className="mb">
         <article className="introSection" id="home">
           <article className="content">
-            <h1 data-aos="fade-down" className="main-txt text_invert">
-              The browser extension for anyone
-            </h1>
+            <div style={{ fontSize: "3rem", fontWeight: "bold" }}>
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("Inscribe! The browser extension for everyone")
+                    .pauseFor(1000)
+                    .deleteChars(8)
+                    .typeString("Artists")
+                    .pauseFor(1500)
+                    .deleteChars(7)
+                    .typeString("Students")
+                    .pauseFor(1500)
+                    .deleteChars(8)
+                    .typeString("Illustrators")
+                    .pauseFor(1500)
+                    .start();
+                }}
+              />
+            </div>
             <p data-aos="fade-up">
               Unleash your creativity with Inscribe, the note-taking extension.{" "}
               <br />
@@ -55,7 +76,7 @@ export default function Home() {
             </p>
             <article data-aos="fade-left">
               <Button
-                className="sc-btn inv-sc-btn"
+                className="sc-btn nrm-sc-btn"
                 value="Get Started"
                 url={browserLink}
               />
@@ -206,7 +227,7 @@ export default function Home() {
           </p>
         </article>
       </article>
-      <section className="mb">
+      <section className="mbTwo">
         <article className="howItWorks" id="how">
           <img
             src={completed}

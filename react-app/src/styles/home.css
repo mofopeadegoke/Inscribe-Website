@@ -8,11 +8,22 @@ article.introSection {
 }
 
 section {
-    background: url(../images/webAccess.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-shadow: 2px 2px 10px #f0edcc;
+    background-color: #000000;
+    color: #fff;
+    clip-path: polygon(0 0,
+        100% 0,
+        100% 85%,
+        0 100%);
+}
+section.mb {
+    padding-bottom: 5rem;
+}
+section.mbTwo {
+    clip-path: polygon(0 15%,
+                100% 0,
+                100% 100%,
+                0 100%);
+    padding-top: 5rem;
 }
 section > * {
     max-width: 1500px;
